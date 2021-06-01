@@ -1,0 +1,51 @@
+
+
+img {
+    max-width: 100%;
+}
+
+.frame-box {
+    max-width: 500px!important;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+.avatar {
+    position: absolute;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+}
+
+.frame-foto {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 128px;
+    height: 128px;
+    cursor: move;
+}
+
+.frame-foto-before,
+.frame-foto-after {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    display: block;
+    margin: 20px auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.input-wraper {
+    text-align: center;
+}
+
+
